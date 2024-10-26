@@ -1,0 +1,19 @@
+
+
+.skillscnt{
+    height: fit-content;
+    width: 80%;
+  
+}
+ label{
+    font-weight: 650;
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+.skillscnt input:nth-child(odd){
+ margin-right: 10px;
+}
+.skillscnt label{
+    margin-right: 10px;
+}

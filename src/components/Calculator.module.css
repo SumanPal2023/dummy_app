@@ -1,0 +1,109 @@
+.up {
+    height: 15px;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.up .left {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-basis: 15%;
+}
+
+.up .right {
+    flex-basis: 85%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.up .right div {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: green;
+    cursor: pointer;
+}
+
+.up .right div:nth-child(2) {
+    background-color: black;
+}
+
+.up .right div:nth-child(3) {
+    background-color: brown;
+}
+.up .right div:nth-child(4) {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.calculator {
+    height: fit-content;
+    width: 25%;
+    padding: 10px 0;
+    box-shadow: 2px 3px 5px #efefef;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    /* padding: 10px; */
+    border: 2px solid rgb(242, 228, 228);
+    border-radius: 5px;
+}
+
+.center {
+    height: 50px;
+    width: 96%;
+    background-color: goldenrod;
+    box-shadow: 1px 2px 4px gold inset;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center input {
+    height: 40px;
+    padding: 2px;
+    width: 96%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 10px rgb(202, 240, 148) inset;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.down {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.down div {
+    height: 37px;
+    width: 60px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px -3px 4px rgb(105, 105, 105) inset;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.down div:hover{
+    box-shadow: -2px -3px 4px silver inset;  
+    /* color: #fff; */
+}

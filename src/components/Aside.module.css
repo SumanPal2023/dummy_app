@@ -1,0 +1,28 @@
+
+.sidebar{
+    height: inherit;
+    width: 18%;
+    /* border: 2px solid; */
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebar ul li {
+    padding: 4px 20px;
+    background-color: royalblue;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border-bottom: 2px solid rgb(59, 59, 238);
+}
+.sidebar ul  a{
+color: #fff;
+text-decoration: none;
+
+}

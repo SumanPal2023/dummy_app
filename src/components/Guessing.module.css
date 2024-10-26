@@ -1,0 +1,33 @@
+
+.game{
+    height: fit-content;
+    width: 30%;
+    border: 1px solid rgb(250, 236, 36);
+    box-shadow: 1px 2px 4px rgb(250, 215, 150), 2px 4px 6px yellow;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.game input{
+    width:  90%;
+    margin:30px  4%;
+    height: 35px;
+    padding-left: 30px;
+
+}
+.game button{
+    padding: 6px 15px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: 660;
+    margin-bottom: 30px;
+}
+.game button:hover{
+    background-color: transparent;
+    color: crimson;
+    border: 1.5px solid crimson;
+}

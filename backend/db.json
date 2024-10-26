@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "id": "d2c56f8c-2141-4ae7-829d-87c4abcd299c",
+      "uname": "kp",
+      "uemail": "kp@gmail.com"
+    },
+    {
+      "id": "680e8b30-a403-49fb-a5b1-ef14fc7de9e2",
+      "uname": "",
+      "uemail": ""
+    },
+    {
+      "id": "2077cd29-0365-46b4-b916-5b5bdc53726c",
+      "uname": "",
+      "uemail": ""
+    },
+    {
+      "id": "d946101b-f579-4662-9d39-13ed9326f365",
+      "uname": "",
+      "uemail": ""
+    },
+    {
+      "id": "db3881a0-f4ae-478b-a55e-5ffab76ce497",
+      "uname": "",
+      "uemail": ""
+    }
+  ]
+}

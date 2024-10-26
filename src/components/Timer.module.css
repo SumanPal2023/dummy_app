@@ -1,0 +1,38 @@
+
+.timercnt{
+    height: 250px;
+    width: 40%;
+    text-align: center;
+    margin: 50px auto;
+    border: 2px solid rgb(226, 220, 220);
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px rgb(196, 242, 196), 2px 3px 10px black;
+    padding: 20px;
+}
+.timercnt h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.btncnt button{
+    padding: 10px 20px;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 660;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.btncnt  button:nth-child(1){
+    background-color: green;
+    margin-right: 15px;
+}
+.btncnt button:nth-child(2){
+    background-color: crimson;
+    margin-right: 15px;
+}
+.btncnt button:nth-child(3){
+    background-color: royalblue;
+    margin-right: 15px;
+}
